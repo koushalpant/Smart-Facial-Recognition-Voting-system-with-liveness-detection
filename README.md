@@ -1,4 +1,4 @@
-Overview
+Overview:
 
 The Smart Voting System using Facial Recognition and Liveness Detection is a secure digital voting prototype designed to enhance transparency, authentication, and fraud prevention in electronic voting systems.
 
@@ -6,73 +6,67 @@ This project combines computer vision, facial recognition, and liveness detectio
 
 The project was developed as a prototype to demonstrate how biometric authentication and AI-based verification can improve the security of modern electronic voting systems.
 
-Key Features
-Facial Recognition Authentication
-
+Key Features:
+Facial Recognition Authentication:
 The system verifies voters using facial recognition technology by matching captured facial data with stored voter records.
 
-Liveness Detection
-
+Liveness Detection:
 To prevent spoofing attacks using photos, videos, or static images, the system performs liveness detection to ensure that a real person is present during authentication.
 
-Secure Voting Access
-
+Secure Voting Access:
 Only authenticated and verified users are allowed to cast votes.
 
-Duplicate Vote Prevention
-
+Duplicate Vote Prevention:
 The system prevents multiple votes from being submitted by the same voter.
 
-Real-Time Camera Verification
-
+Real-Time Camera Verification:
 Uses webcam-based verification for live facial authentication.
 
-Database Integration
-
+Database Integration:
 Stores voter information, authentication data, and voting records securely using a database system.
 
-User-Friendly Interface
-
+User-Friendly Interface:
 Provides a simple and responsive interface for voter registration, authentication, and vote casting.
 
-Problem Statement
-
+Problem Statement:
 Traditional voting systems face several challenges including:
 
 Voter impersonation
 Fake identity usage
 Multiple voting attempts
 Manual verification delays
-Security vulnerabilities in online voting systems
+Security vulnerabilities in voting systems
 
 This project addresses these issues by integrating biometric verification and AI-powered liveness detection into the voting workflow.
 
-Objectives
+Objectives:
 Develop a secure and reliable digital voting prototype
 Implement facial recognition for voter authentication
 Integrate liveness detection to prevent spoofing attacks
 Reduce the possibility of duplicate or fraudulent voting
 Demonstrate the practical application of computer vision in secure systems
-Technologies Used
+
+Technologies Used:
 Programming Languages
 Python
 JavaScript
 HTML
 CSS
 SQL
-Libraries and Frameworks
+
+Libraries and Frameworks:
 OpenCV
 MediaPipe
 NumPy
 Pandas
 Matplotlib
 Database
-SQLite / MySQL (depending on implementation)
-Other Tools
-GitHub
-Hostinger
+SQLite
+
+Other Tools:
 VS Code
-System Workflow
+
+System Workflow:
 User registers into the system
 Facial data is captured and stored securely
 During login, the webcam captures live facial input
@@ -83,12 +77,9 @@ User casts vote
 System marks voter as “voted” to prevent duplicate voting
 Facial Recognition Module
 
-The facial recognition module is responsible for identifying and authenticating voters based on facial features captured through the webcam.
-
 The system processes facial embeddings and compares them against stored facial data in the database to determine identity matches.
 
-Liveness Detection Module
-
+Liveness Detection Module:
 The liveness detection module helps prevent spoofing attempts using:
 
 Printed photographs
@@ -98,10 +89,9 @@ Static face displays
 
 The system analyzes live facial movements and real-time camera input to determine whether the detected face belongs to a real person physically present during authentication.
 
-Database Management
+Database Management:
 
 The database stores:
-
 Registered voter details
 Facial data references
 Authentication records
